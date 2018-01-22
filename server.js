@@ -49,6 +49,7 @@ app.use(express.static(__dirname + '/public'));
 app.get('/about', (req, res) => {
   res.render('about.hbs', {
     pageTitle: 'About Page',
+    introduction: 'Some introduction will come soon',
   });
 })
 
